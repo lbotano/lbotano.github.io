@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.xp-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding-left: 1.7em;
+}
+
+body {
+    --margin: 1em;
+    min-height: 100vh;
+    font-family: 'Inconsolata', monospace;
+
+    display: grid;
+    grid-template-columns: auto 600px auto;
+    grid-template-rows: 1em fit-content(100%) 1em auto 1em;
+}
+
+header {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+main {
+    grid-area: 4 / 2 / 5 / 3;
+}
