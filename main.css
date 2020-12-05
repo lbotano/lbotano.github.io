@@ -28,3 +28,12 @@ header {
 main {
     grid-area: 4 / 2 / 5 / 3;
 }
+
+a {
+    text-decoration: none;
+    color: #66f;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
