@@ -1,0 +1,13 @@
+.links {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.links li {
+  flex-shrink: 0;
+}
+
+  .links li:not(:last-child):after {
+    content: '| ';
+    white-space: pre;
+  }

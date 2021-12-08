@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Computer Science student and Web Developer">
   <script src="https://kit.fontawesome.com/60ed8093ad.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main-desktop.css" media="screen and (min-width: 960px)">
   <title>Lautaro Otaño</title>
 </head>
 <body>
-  <main>
+  <header class="main card">
     <h1>Lautaro Otaño</h1>
-    <h2>Estudiante de computación</h2>
+    <h2>Computer Science student</h2>
     <nav>
       <ul class="links">
         <li>
@@ -28,10 +30,21 @@
         </li>
         <li>
           <i class="fas fa-file"></i>
-          <a href="cv.pdf">CV</a>
+          <a href="lautaro-otaño-cv.pdf">Résumé</a>
         </li>
       </ul>
     </nav>
-  </main>
+  </header>
+  <section class="projects card">
+    <h1>Projects</h1>
+    <div class="project">
+      <h2>
+        <a href="http://localpostits.tk">localpostits.tk</a>
+      </h2>
+      <p>
+        PWA for saving and organizing notes. Supports pictures, audio and video, all saved locally.
+      </p>
+    </div>
+  </section>
 </body>
 </html>
