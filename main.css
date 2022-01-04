@@ -59,7 +59,7 @@ a {
 }
 
 .links li {
-  padding-top: .3em;
+  padding: .6em 0;
 }
 
 .projects {
@@ -67,8 +67,11 @@ a {
 }
 
 .projects h1 {
-  margin-bottom: .6em;
   font-size: 2em;
+}
+
+.project h2 {
+  margin-top: 1rem;
 }
 
 @media (prefers-color-scheme: dark) {
